@@ -1,0 +1,803 @@
+{
+    "pizza_house": {
+        "name": "Pizza House",
+        "opening_hours": "Every day: 10:00 - 23:00",
+        "delivery_zones": {
+            "Batna Center": 150,
+            "Bouakal": 200,
+            "Tazoult": 300
+        },
+        "promotion": "10% discount on orders above 2000 DA",
+        "items": [
+            {
+                "name": "Margherita",
+                "sizes": {
+                    "Small": 500,
+                    "Medium": 700,
+                    "Large": 900
+                },
+                "ingredients": [
+                    "tomato sauce",
+                    "mozzarella",
+                    "basil"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Four Cheese",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "mozzarella",
+                    "cheddar",
+                    "parmesan",
+                    "gorgonzola"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Pepperoni",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "tomato sauce",
+                    "mozzarella",
+                    "pepperoni"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Vegetarian",
+                "sizes": {
+                    "Small": 600,
+                    "Medium": 800,
+                    "Large": 1000
+                },
+                "ingredients": [
+                    "tomato sauce",
+                    "mushrooms",
+                    "peppers",
+                    "olives"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Chicken",
+                "sizes": {
+                    "Small": 650,
+                    "Medium": 850,
+                    "Large": 1050
+                },
+                "ingredients": [
+                    "chicken",
+                    "mozzarella",
+                    "tomato sauce"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "BBQ Chicken",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "chicken",
+                    "BBQ sauce",
+                    "onions",
+                    "mozzarella"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Tuna",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "tuna",
+                    "onions",
+                    "olives",
+                    "tomato sauce"
+                ],
+                "allergens": [
+                    "fish",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Seafood",
+                "sizes": {
+                    "Small": 900,
+                    "Medium": 1100,
+                    "Large": 1300
+                },
+                "ingredients": [
+                    "shrimp",
+                    "squid",
+                    "mozzarella"
+                ],
+                "allergens": [
+                    "shellfish",
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Mexican",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "spicy beef",
+                    "peppers",
+                    "jalapenos",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Neapolitan",
+                "sizes": {
+                    "Small": 600,
+                    "Medium": 800,
+                    "Large": 1000
+                },
+                "ingredients": [
+                    "tomato sauce",
+                    "mozzarella",
+                    "anchovies"
+                ],
+                "allergens": [
+                    "fish",
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Supreme",
+                "sizes": {
+                    "Small": 800,
+                    "Medium": 1000,
+                    "Large": 1200
+                },
+                "ingredients": [
+                    "beef",
+                    "mushrooms",
+                    "peppers",
+                    "olives"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Hawaiian",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "chicken",
+                    "pineapple",
+                    "mozzarella"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Beef",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "ground beef",
+                    "onions",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Mushroom",
+                "sizes": {
+                    "Small": 600,
+                    "Medium": 800,
+                    "Large": 1000
+                },
+                "ingredients": [
+                    "mushrooms",
+                    "cream",
+                    "mozzarella"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Spicy",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "spicy sausage",
+                    "chili",
+                    "mozzarella"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            }
+        ]
+    },
+    "italian_corner": {
+        "name": "Italian Corner",
+        "opening_hours": "Every day: 11:00 - 00:00",
+        "delivery_zones": {
+            "Batna Center": 100,
+            "Bouakal": 180,
+            "Fesdis": 250
+        },
+        "promotion": "Free drink with orders above 2500 DA",
+        "items": [
+            {
+                "name": "Classic Margherita",
+                "sizes": {
+                    "Small": 550,
+                    "Medium": 750,
+                    "Large": 950
+                },
+                "ingredients": [
+                    "tomato",
+                    "mozzarella",
+                    "basil"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Italian Cheese",
+                "sizes": {
+                    "Small": 850,
+                    "Medium": 1050,
+                    "Large": 1250
+                },
+                "ingredients": [
+                    "mozzarella",
+                    "parmesan",
+                    "ricotta"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Salami",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "salami",
+                    "tomato",
+                    "mozzarella"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Garden Pizza",
+                "sizes": {
+                    "Small": 650,
+                    "Medium": 850,
+                    "Large": 1050
+                },
+                "ingredients": [
+                    "mushrooms",
+                    "peppers",
+                    "olives",
+                    "onions"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Chicken Alfredo",
+                "sizes": {
+                    "Small": 800,
+                    "Medium": 1000,
+                    "Large": 1200
+                },
+                "ingredients": [
+                    "chicken",
+                    "cream",
+                    "parmesan"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "BBQ Special",
+                "sizes": {
+                    "Small": 850,
+                    "Medium": 1050,
+                    "Large": 1250
+                },
+                "ingredients": [
+                    "chicken",
+                    "BBQ sauce",
+                    "onions"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Tuna Special",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "tuna",
+                    "corn",
+                    "olives"
+                ],
+                "allergens": [
+                    "fish",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Seafood Deluxe",
+                "sizes": {
+                    "Small": 1000,
+                    "Medium": 1200,
+                    "Large": 1400
+                },
+                "ingredients": [
+                    "shrimp",
+                    "squid",
+                    "garlic"
+                ],
+                "allergens": [
+                    "shellfish",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Mexican Hot",
+                "sizes": {
+                    "Small": 800,
+                    "Medium": 1000,
+                    "Large": 1200
+                },
+                "ingredients": [
+                    "beef",
+                    "jalapenos",
+                    "peppers"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Napoli",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "tomato",
+                    "anchovies",
+                    "olives"
+                ],
+                "allergens": [
+                    "fish",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Royal",
+                "sizes": {
+                    "Small": 950,
+                    "Medium": 1150,
+                    "Large": 1350
+                },
+                "ingredients": [
+                    "beef",
+                    "chicken",
+                    "mushrooms",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Hawaiian Special",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "chicken",
+                    "pineapple",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Beef Supreme",
+                "sizes": {
+                    "Small": 850,
+                    "Medium": 1050,
+                    "Large": 1250
+                },
+                "ingredients": [
+                    "beef",
+                    "onions",
+                    "peppers"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Creamy Mushroom",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "mushrooms",
+                    "cream",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Diavola",
+                "sizes": {
+                    "Small": 850,
+                    "Medium": 1050,
+                    "Large": 1250
+                },
+                "ingredients": [
+                    "spicy salami",
+                    "chili",
+                    "mozzarella"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            }
+        ]
+    },
+    "fast_pizza": {
+        "name": "Fast Pizza",
+        "opening_hours": "Every day: 09:00 - 01:00",
+        "delivery_zones": {
+            "Batna Center": 120,
+            "Bouakal": 170,
+            "Tazoult": 280
+        },
+        "promotion": "Buy 2 large pizzas and get 1 drink free",
+        "items": [
+            {
+                "name": "Mini Margherita",
+                "sizes": {
+                    "Small": 450,
+                    "Medium": 650,
+                    "Large": 850
+                },
+                "ingredients": [
+                    "tomato",
+                    "mozzarella",
+                    "basil"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Cheese Mix",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "mozzarella",
+                    "cheddar",
+                    "parmesan"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Pepperoni Express",
+                "sizes": {
+                    "Small": 650,
+                    "Medium": 850,
+                    "Large": 1050
+                },
+                "ingredients": [
+                    "pepperoni",
+                    "tomato",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Veggie Mix",
+                "sizes": {
+                    "Small": 550,
+                    "Medium": 750,
+                    "Large": 950
+                },
+                "ingredients": [
+                    "mushrooms",
+                    "peppers",
+                    "olives"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Chicken Express",
+                "sizes": {
+                    "Small": 600,
+                    "Medium": 800,
+                    "Large": 1000
+                },
+                "ingredients": [
+                    "chicken",
+                    "tomato",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "BBQ Express",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "chicken",
+                    "BBQ sauce",
+                    "onions"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Tuna Express",
+                "sizes": {
+                    "Small": 650,
+                    "Medium": 850,
+                    "Large": 1050
+                },
+                "ingredients": [
+                    "tuna",
+                    "onions",
+                    "olives"
+                ],
+                "allergens": [
+                    "fish",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Seafood Mix",
+                "sizes": {
+                    "Small": 850,
+                    "Medium": 1050,
+                    "Large": 1250
+                },
+                "ingredients": [
+                    "shrimp",
+                    "squid",
+                    "tomato"
+                ],
+                "allergens": [
+                    "shellfish",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Mexican Express",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "beef",
+                    "chili",
+                    "peppers"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Napoli Express",
+                "sizes": {
+                    "Small": 550,
+                    "Medium": 750,
+                    "Large": 950
+                },
+                "ingredients": [
+                    "tomato",
+                    "anchovies",
+                    "olives"
+                ],
+                "allergens": [
+                    "fish",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Super Pizza",
+                "sizes": {
+                    "Small": 750,
+                    "Medium": 950,
+                    "Large": 1150
+                },
+                "ingredients": [
+                    "beef",
+                    "chicken",
+                    "mushrooms"
+                ],
+                "allergens": [
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Hawaiian Express",
+                "sizes": {
+                    "Small": 650,
+                    "Medium": 850,
+                    "Large": 1050
+                },
+                "ingredients": [
+                    "chicken",
+                    "pineapple",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Beef Express",
+                "sizes": {
+                    "Small": 650,
+                    "Medium": 850,
+                    "Large": 1050
+                },
+                "ingredients": [
+                    "beef",
+                    "onions",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Mushroom Express",
+                "sizes": {
+                    "Small": 550,
+                    "Medium": 750,
+                    "Large": 950
+                },
+                "ingredients": [
+                    "mushrooms",
+                    "cream",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            },
+            {
+                "name": "Hot Pizza",
+                "sizes": {
+                    "Small": 700,
+                    "Medium": 900,
+                    "Large": 1100
+                },
+                "ingredients": [
+                    "spicy sausage",
+                    "chili",
+                    "cheese"
+                ],
+                "allergens": [
+                    "milk",
+                    "gluten"
+                ]
+            }
+        ]
+    }
+}
